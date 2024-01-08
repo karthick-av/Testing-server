@@ -12,15 +12,10 @@ const db_password = config[ENV_MODE]["db_password"];
 const db_name = config[ENV_MODE]["db_name"];
 
 const connection = mysql.createConnection({
-    host: db_host,
-    user: db_user,
-    password: db_password,
-    database: db_name,
-    port: port,
-    //timezone: timezone,
-    multipleStatements: true,
-    waitForConnections: true,
-    connectTimeout: 20000
+    host:"localhost",
+    user:"root",
+    password:"",
+    database:"testing"
 });
 connection.connect(function(err) {
 if (err) {
