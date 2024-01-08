@@ -1,0 +1,19 @@
+{
+    "local": {
+        "port": 4000,
+        "host": "localhost",
+        "db_host": "localhost",
+        "db_user": "root",
+        "db_password": "root",
+        "db_name": "testing"
+    },
+    "production": {
+        "port": 3306,
+        "host": "localhost",
+        "db_host": "localhost",
+        "db_user": "root",
+        "db_password": "root@123",
+        "db_name": "testing"
+    }
+}
+
